@@ -1,3 +1,4 @@
+// GAME FUNCTIONS
 
 // Game States
 // "WIN" - Player robot has defeated all enemy-robots
@@ -131,6 +132,7 @@ var endGame = function() {
     }
 };
 
+// SHOP FUNCTION
 var shop = function() {
     // ask player what they'd like to do
     var shopOptionPrompt = window.prompt(
@@ -162,6 +164,7 @@ var shop = function() {
     }
 };  
 
+// PLAYER AND ENEMY INFO
 // var playerName = 'Clank McKrank';
 var playerInfo = {
     name: window.prompt("What is your robot's name?"),
